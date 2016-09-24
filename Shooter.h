@@ -11,6 +11,8 @@
 
 class Shooter {
 public:
+	Motor* leftMotor;
+	Motor* rightMotor;
 	Shooter();
 	Shooter(int right, int left);
 	virtual ~Shooter();
